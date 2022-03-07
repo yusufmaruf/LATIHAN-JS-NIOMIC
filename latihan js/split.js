@@ -1,8 +1,9 @@
-function splt() {
-    var kata = "aku pintar";
-    console.log(kata.split());
-    console.log(kata.split(""));
+//mengabungkan data string menjadi array
+function jsplit() {
+    var data = "Kita belajar coding"
+    console.log(data)
+    var hasil = data.split(" ")
+    console.log(hasil)
 
 }
-splt()
-    //mengubah karakter string menjadi array
+jsplit();
