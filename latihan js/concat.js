@@ -1,7 +1,7 @@
-function ubah() {
-    var kata = "Saya";
-    var kata1 = " Maruf";
-    console.log(kata.concat(kata1));
+function tconcat() {
+    var buah1 = ["pisang", 'mangga']
+    var buah2 = ['apel', 'manggis']
+    var buahbuah = buah1.concat(buah2)
+    console.log(buahbuah)
 }
-ubah()
-    //digunkan untuk menyambung string yang fungsinya sama dengan operator +
+tconcat()
