@@ -1,4 +1,4 @@
-let peoples = [{
+var peoples = [{
         name: "Andi",
         gender: "male"
     },
@@ -11,7 +11,7 @@ let peoples = [{
         gender: "female"
     }
 ];
-let female = peoples.filter(peoples => {
+var female = peoples.filter(peoples => {
     return peoples.gender === "female";
 });
 console.log(female);
